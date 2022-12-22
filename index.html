@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erema Marian</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Erema Marian</h1>
+
+      <img src="images.jpg" alt="Schior" />
+
+      <h2 id="job-title">
+        Profesor de Educatie Fizica si Sport, Antrenor de schi si viitor
+        programator
+      </h2>
+      <p style="color: red; text-align: center">
+        Bine ati venit la <strong>curs</strong>
+      </p>
+
+      <ul id="top-menu-bar">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Know Languages</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </header>
+
+    <section id="content">
+      <div id="side-menu">
+        <section>
+          <form action="">
+            <div>
+              <label for="subscriberEmail">Email</label>
+              <input
+                type="email"
+                required
+                name="email"
+                id="subscriberEmail"
+                placeholder="your@email.com"
+              />
+            </div>
+            <div>
+              <label for="subscriber">Name:</label>
+              <input
+                type="text"
+                required
+                name="nume"
+                id="subscriber"
+                placeholder="Full name"
+              />
+            </div>
+            <button type="submit">Subscribe</button>
+          </form>
+        </section>
+
+        <section>Menu 2</section>
+      </div>
+
+      <div id="main">
+        <div class="page">
+          <h2>Skills</h2>
+
+          <ul id="skills-list"></ul>
+        </div>
+
+        <div class="page">
+          <h2>Known Languages</h2>
+
+          <table border="1">
+            <tr>
+              <th>Languages</th>
+              <th>Level</th>
+            </tr>
+            <tr>
+              <td>Romanian</td>
+              <td>Native</td>
+            </tr>
+            <tr>
+              <td>English</td>
+              <td>Sufficient</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a target="_blank" href="https://www.google.com">Google</a>
+    </footer>
+
+    <script src="index.js"></script>
+    <script>
+      //asa vreau eu!!
+      console.info("page loaded");
+      console.debug(2 * 3 + 1);
+      2 * (3 + 1);
+
+      var employed = true;
+
+      var age = 24; //number
+
+      var user = "Marian";
+      console.info(user);
+      user = user + " Erema";
+      console.info(user);
+
+      var skills = ["HTML", "CSS", "JS"];
+
+      var marian = {
+        age: 27,
+        employed: true,
+      };
+
+      var anca = {
+        age: 25,
+        employed: false,
+      };
+
+      var jobTitle = document.getElementById("job-title");
+    </script>
+  </body>
+</html>
