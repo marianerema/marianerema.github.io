@@ -10,4 +10,4 @@ for (var i = 0; i < skills.length; i++) {
 
 skillsEl.innerHTML = skillsHTML;
 
-document.getElementById("skills").style.display = "block";
+document.getElementById("home").style.display = "block";
