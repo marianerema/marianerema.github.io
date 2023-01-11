@@ -23,16 +23,21 @@ body {
 
 td {
   color: darkblue;
-  border-color: darkblue;
+  border-color: rgb(0, 0, 0);
 }
 
 #subscriberEmail {
-  background: yellow;
+  background: rgb(0, 0, 0);
 }
 
 #job-title {
   text-align: center;
-  color: rgb(255, 136, 0);
+  color: rgb(5, 63, 255);
+}
+
+#hobby-job-title {
+  text-align: center;
+  color: rgb(255, 0, 0);
 }
 
 .favorite {
