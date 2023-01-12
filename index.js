@@ -31,3 +31,8 @@ function displayPage(id) {
 }
 
 displayPage("home");
+
+// document.querySelector('#top-menu-bar').addEventListener("click", function(e){
+//   console.info("click", e.target.getAttribute("data-page"));
+//   displayPage
+// })
