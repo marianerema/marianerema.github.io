@@ -10,17 +10,21 @@ for (var i = 0; i < skills.length; i++) {
 
 skillsEl.innerHTML = skillsHTML;
 
+var pageIds = ["home", "skills", "languages", "projects"];
+
+function hidePage(id) {
+  hide(id);
+}
+
 function hideAllPages() {
-  hide("home");
-  hide("skills");
-  hide("languages");
-  hide("projects");
+  pageIds.forEach(hidePage);
 }
 
 function show(id) {
   document.getElementById(id).style.display = "block";
 }
 function hide(id) {
+  console.info("hide", id);
   document.getElementById(id).style.display = "none";
 }
 
