@@ -8,13 +8,11 @@ var skills = [
 ];
 //var skills = [["HTML, 5"], ["CSS", 3], ["JS"], ["Drive"]];
 // var endorcement = [5, 6, 5, 1];
-var skillsHTML = "";
 
-for (var i = 0; i < skills.length; i++) {
-  console.info(skills[i].endorcement);
-  skillsHTML +=
-    "<li>" + skills[i].name + " - " + skills[i].endorcement + "</li>";
-}
+var skillsHTML = "";
+skills.forEach(function (skill) {
+  skillsHTML += "<li>" + skill.name + " - " + skill.endorcement + "</li>";
+});
 
 skillsEl.innerHTML = skillsHTML;
 
