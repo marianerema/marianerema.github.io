@@ -96,3 +96,11 @@ td {
   color: #334455;
   background: #fff;
 }
+
+#skills-list li {
+  font-weight: bold;
+}
+#skills-list span {
+  color: grey;
+  font-weight: 200;
+}
