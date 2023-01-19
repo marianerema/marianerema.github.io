@@ -30,9 +30,28 @@ td {
   background: rgb(0, 0, 0);
 }
 
+#header-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#header-wrapper h1 {
+  margin: 10px;
+  color: #057988;
+}
+
+#header-wrapper h2 {
+  margin: 5px;
+}
+
+#header-wrapper img {
+  border-radius: 50%;
+  border: 3px solid #057988;
+}
+
 #job-title {
   text-align: center;
-  color: rgb(5, 63, 255);
+  color: #0c29e6;
 }
 
 #hobby-job-title {
