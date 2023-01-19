@@ -9,12 +9,11 @@ var skills = [
 //var skills = [["HTML, 5"], ["CSS", 3], ["JS"], ["Drive"]];
 // var endorcement = [5, 6, 5, 1];
 
-var skillsHTML = "";
-skills.forEach(function (skill) {
-  skillsHTML += "<li>" + skill.name + " - " + skill.endorcement + "</li>";
+var skillsHTML = skills.map(function (skill) {
+  return "<li>" + skill.name + " - " + skill.endorcement + "</li>";
 });
 
-skillsEl.innerHTML = skillsHTML;
+skillsEl.innerHTML = skillsHTML.join("");
 
 function hideAllPages() {
   var pages = document.querySelectorAll(".page");
