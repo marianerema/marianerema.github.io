@@ -33,6 +33,7 @@ td {
 #header-wrapper {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 #header-wrapper h1 {
@@ -46,7 +47,8 @@ td {
 
 #header-wrapper img {
   border-radius: 50%;
-  border: 3px solid #057988;
+  border: 1px solid #057988;
+  padding: 2px;
 }
 
 #job-title {

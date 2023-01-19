@@ -30,9 +30,17 @@ function displayPage(id) {
   show(id);
 }
 
-displayPage("home");
+function initMenu() {
+  document
+    .getElementById("top-menu-bar")
+    .addEventListener("click", function (e) {
+      if (e.target.matches("a")) {
+        var id = e.target.getAttribute("data-page");
+        //var id = e.target.dataset.page;
+        displayPage(id);
+      }
+    });
+}
 
-// document.querySelector('#top-menu-bar').addEventListener("click", function(e){
-//   console.info("click", e.target.getAttribute("data-page"));
-//   displayPage
-// })
+displayPage("home");
+initMenu();
