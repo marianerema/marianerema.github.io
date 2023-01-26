@@ -28,6 +28,17 @@ td {
 
 #subscriberEmail {
   background: rgb(0, 0, 0);
+  margin-top: 10px;
+}
+#subscriber {
+  background: black;
+  margin-top: 10px;
+}
+
+#side-menu {
+  background: #c3e6eb;
+  border: #0c29e6;
+  flex: 0;
 }
 
 #header-wrapper {
