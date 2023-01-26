@@ -1,25 +1,22 @@
-var skillsEl = document.getElementById("skills-list");
-
-var skills = [];
-
-var r1 = fetch("skills.json");
+const r1 = fetch("skills.json");
 r1.then(function (raspuns) {
-  var r2 = raspuns.json();
+  const r2 = raspuns.json();
   r2.then(function (skills) {
     displaySkills(skills);
   });
 });
 
 function displaySkills(skills) {
-  var skillsHTML = skills.map(function (skill) {
+  const skillsHTML = skills.map(function (skill) {
     return `<li>${skill.name} - <span>${skill.endorcement}</span></li>`;
   });
 
+  const skillsEl = document.getElementById("skills-list");
   skillsEl.innerHTML = skillsHTML.join("");
 }
 
 function hideAllPages() {
-  var pages = document.querySelectorAll(".page");
+  const pages = document.querySelectorAll(".page");
   pages.forEach(function (page) {
     hide(page.id);
   });
@@ -29,7 +26,6 @@ function show(id) {
   document.getElementById(id).style.display = "block";
 }
 function hide(id) {
-  console.info("hide", id);
   document.getElementById(id).style.display = "none";
 }
 
@@ -43,8 +39,8 @@ function initMenu() {
     .getElementById("top-menu-bar")
     .addEventListener("click", function (e) {
       if (e.target.matches("a")) {
-        var id = e.target.getAttribute("data-page");
-        //var id = e.target.dataset.page;
+        // var id = e.target.getAttribute("data-page");
+        const id = e.target.getAttribute("data-page");
         displayPage(id);
       }
     });
