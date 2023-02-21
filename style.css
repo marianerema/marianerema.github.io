@@ -210,3 +210,9 @@ td {
   color: grey;
   font-weight: 200;
 }
+
+footer {
+  text-align: center;
+  border-radius: 20px;
+  background-color: yellow;
+}
