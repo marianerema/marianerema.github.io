@@ -17,6 +17,92 @@ body {
 #side-menu {
   flex: 1;
 }
+
+.square1-1 {
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  float: left;
+  border-radius: 5%;
+}
+.square1-2 {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  float: left;
+  border-radius: 5%;
+}
+.square1-3 {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  float: left;
+  border-radius: 5%;
+}
+.square2-0 {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+.square2-1 {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  float: left;
+  border-radius: 5%;
+}
+.square2-2 {
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  float: left;
+  border-radius: 5%;
+}
+.square2-3 {
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  float: left;
+  border-radius: 5%;
+}
+.square3-0 {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+.square3-1 {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  float: left;
+  border-radius: 5%;
+}
+.square3-2 {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  float: left;
+  border-radius: 5%;
+}
+.square3-3 {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  float: left;
+  border-radius: 5%;
+}
+
 #main {
   flex: 2;
 }
@@ -44,27 +130,36 @@ td {
 #header-wrapper {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: normal;
+  background-color: #f2b347;
 }
 
 #header-wrapper h1 {
   margin: 10px;
-  color: #057988;
+  color: #22c1d6;
 }
 
 #header-wrapper h2 {
-  margin: 5px;
+  margin: 10px;
+  margin-top: 5px;
+  color: #22c1d6;
 }
 
-#header-wrapper img {
-  border-radius: 50%;
-  border: 1px solid #057988;
-  padding: 2px;
+#avatar {
+  border-radius: 75%;
+  border: 4px #fff;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#sportiland {
+  cursor: pointer;
+  padding: 10px;
 }
 
 #job-title {
   text-align: center;
-  color: #0c29e6;
+  color: #2c42d0;
 }
 
 #hobby-job-title {

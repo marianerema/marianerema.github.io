@@ -1,6 +1,7 @@
 [
   { "name": "HTML", "endorcement": 5 },
-  { "name": "CSS", "endorcement": 4 },
-  { "name": "JS", "endorcement": 3 },
-  { "name": "Drive", "endorcement": 2 }
+  { "name": "CSS", "endorcement": 3 },
+  { "name": "JS", "endorcement": 1 },
+  { "name": "Drive", "endorcement": 5 },
+  { "name": "Trainer", "endorcement": 5 }
 ]
